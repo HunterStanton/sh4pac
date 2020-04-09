@@ -5,8 +5,8 @@ This is a C# command-line tool for unpacking and repacking Silent Hill 4 .PAC so
 sh4pac has three modes which allow you to analyze a .pac file, extract it's contents, or build a completely new one.
 
 * sh4pac analyze <file.pac> - Prints some information about a .pac archive
-* sh4pac unpack <file.pac> <output directory> - Unpacks a .pac archive into an output folder
-* sh4pac pack <output directory> <file.pac> - Creates a .pac archive from an output folder
+* sh4pac unpack < file.pac > < output directory > - Unpacks a .pac archive into an output folder
+* sh4pac pack < output directory > < file.pac > - Creates a .pac archive from an output folder
 
 ### Repacking Notes
 When you have unpacked a .pac, you must keep the order and filenames of each .wav file the same. The filenames are currently used to store unknown information about each .wav that is crucial to repacking.
