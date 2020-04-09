@@ -15,6 +15,11 @@ I believe you should also keep the sample rate/format/length of the .wavs the sa
 
 Other than that, you should be able to create sound mods using this tool. Have fun, and @ me on Twitter (@hun10sta) if you come up with something fun :-)
 
+## Proof-of-Concept
+Here is a simple sound mod created with the use of this tool.
+
+[![Silent Hill 4 Sound Modding](https://img.youtube.com/vi/pFrb3Zjq9Hg/0.jpg)](https://www.youtube.com/watch?v=pFrb3Zjq9Hg)
+
 ## To-do
 * Verify an unknown int32 in the header of the .pac file
 * Refactoring
